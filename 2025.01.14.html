@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>January 14, 2025</title>
+</head>
+<body>
+    <h1>Lesson 2 - Let's connect!</h1>
+    <p><a href="index.html">Back to table of contents</a></p>
+    <p>In this lesson, you will learn:
+        <ol><li>Various HTML text elements</li>
+           <li>HTML white</li> 
+            <li>HTML entities (aka special characters)</li>
+            <li>An introduction to block and inline elements</li>
+            <li>HTML links</li>
+            <li>Using Emmet in VSCode</li></ol> 
+        </p>
+        <hr>
+    <h2>Special Characters</h2>
+        <a href="https://www.w3schools.com/html/html_entities.asp">Documentation: HTML Entities</a>
+        <!-- HTML omits extra spaces. Use &nbsp; no break space to add more than 1 space between characters -->
+        <p>There are 5 spaces between A     B</p>
+        <p>There are 5 spaces between A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B</p>
+        <p>There are 5 spaces between A &nbsp; &nbsp; B</p>
+
+        <!-- use html entities like &lt; for the < symbol so the browser uses it as a literal character not html code -->
+        <p>This is how to create <b>Bold Text</b> in HTML</p>
+        <p>This is how to create bold text &lt;b&gt;Bold Text&lt;/b&gt;in HTML</p>
+
+        <!-- use special characters to create a heart symbol and smiley face -->
+        <p>Sending you my &hearts;</p>
+        <p>This is so fun &#128514;</p>
+        <p>Copyright &copy;</p>
+        <p>Trademark &trade;</p>
+        <br>
+    <h23>Notes</h3>
+        <p>Documentation for these symbols can always be found online. As you use them they will become more easy to remember.</p>
+        <br>
+    <hr>
+<h2>HTML Links</h2>
+<p>
+    A <b>hyperlink</b> is a clickable element in web pages or electronic documents, that directs users to another location when clicked. 
+</p><p>
+    It's a way to connect different parts of a document or link to external resources like other web pages, files, images, or even specific sections within the same page.
+</p><p>
+    The <b>title attribute</b> specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.
+</p><p>
+    The <b>target attribute</b> specifies where to open the linked document.
+        <ul>
+            <li><b>_self</b> opens the document in the same window/tab as it was clicked</li>
+            <li><b>_blank</b> opens the document in a new window or tab</li>
+            <li><b>_parent</b> opens the document in the parent frame</li>
+            <li><b>_top</b> opens the document in the full body of the window</li>
+        </ul>  
+</p>
+<h3>Absolute and Relative Hyperlinks</h3>
+<p>
+    <strong>Absolute Hyperlinks</strong> contain the complete URL or web address of the linked resource. This is not the best link to use within a website.
+</p><p>   
+    <strong>Relative Hyperlinks</strong> specify the path to the linked resource relative ot the current location of the HTML file. They are often used when linking to pages within the same website. 
+</p>
+<h4>Linking to folders and sub-folders</h4>
+    <ul>
+        <li><b>/</b> Root directory</li>
+        <li><b>.</b> This location</li>
+        <li><b>..</b> Up a directory</li>
+        <li><b>./</b> Current directory</li>
+        <li><b>../</b> Parent of current directory</li>
+        <li><b>../../</b> Two directories backwards</li>
+    </ul>    
+</p>
+</body>
+</html>
